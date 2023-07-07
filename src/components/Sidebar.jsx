@@ -50,14 +50,13 @@ const Sidebar = () => {
                         to={'/'}
                         className="bg-gray-200 flex p-4 justify-center items-center text-primary w-full font-medium"
                     >
-                       <span onClick={() => alert(`You are already viewing your cart!`)}>View Cart</span>
+                       <p className="w-full text-center" onClick={() => alert(`You are already viewing your cart!`)}>View Cart</p>
                     </Link>
 
                     <Link
-
                         to={'/'}
                         className="bg-primary flex p-4 justify-center items-center text-white w-full font-medium">
-                       <span  onClick={() => alert(`Thank you for your shopping`)}>Checkout</span>
+                       <p  className="w-full text-center" onClick={() => alert(`Thank you for your shopping`)}>Checkout</p>
                     </Link>
                 </div>
             </div>
